@@ -1,76 +1,41 @@
-# Name of project
+# Food Truck
 
-> A longer description
+> This website is about a food truck business that allows users to find a food
+> truck near them, make an order for food online, and discover deals/promotions
+> for discounts.
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [Food Truck](#food-truck)
   - [Table of contents](#table-of-contents)
-  - [General info](#general-info)
   - [Screenshots](#screenshots)
+  - [Team](#team)
   - [Technologies](#technologies)
   - [Setup](#setup)
-  - [Code Examples](#code-examples)
-  - [Features](#features)
-  - [Status](#status)
-  - [Inspiration](#inspiration)
-  - [Contact](#contact)
   - [Instructions for use](#instructions-for-use)
   - [Code Quality Checks](#code-quality-checks)
   - [Continuous Integration (CI)](#continuous-integration-ci)
   - [Repo Setup](#repo-setup)
 
-## General info
-
-> A short description
-
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Screenshot](./public/screenshot.jpg)
+
+## Team
+
+- [Alex](https://github.com/alex-maletskyi)
 
 ## Technologies
 
 - Node 14.16.0
-- VSC code
-- JavaScript
-- ...
-- ...
+- VS Code
+- HTML5 & CSS3
+- Figma
 
 ## Setup
 
-- `npm run start`
-
-## Code Examples
-
-```js
-// the hello world program
-console.log("Hello World");
-```
-
-## Features
-
-List of features ready and Todos for future development
-
--
--
--
-
-To-do list:
-
--
--
-
-## Status
-
-Project is: _in progress_
-
-## Inspiration
-
-Project by freeCodeCamp.org
-
-## Contact
-
-By [Name]
+- clone the repo
+- npm install
 
 ## Instructions for use
 
@@ -79,8 +44,8 @@ By [Name]
 
 <!-- a guide to using this repository -->
 
-1. `git clone git@github.com:HackYourFutureBelgium/template-markdown.git`
-2. `cd template-markdown`
+1. `https://github.com/HYF-Class21/agile-development-group4-hyf-redesign`
+2. `agile-development-group4-hyf-redesign`
 3. `npm install`
 
 ## Code Quality Checks
