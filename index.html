@@ -2,11 +2,73 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project!</title>
-
-    <link href="./styles/index.css" rel="stylesheet" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Food Truck</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
   </head>
-  <body></body>
+  <body>
+    <!-- NAVBAR -->
+    <section class="navbar-section">
+      <nav class="navbar">
+        <div class="logo-container">
+          <a href="#index.html"><img src="logo.jpg" alt="Food Truck" /></a>
+        </div>
+        <div class="navbar-buttons">
+          <a href="#">Contact</a>
+          <a href="#">Dicsover</a>
+          <a href="#">Log In</a>
+          <button type="button">Sign up</button>
+        </div>
+      </nav>
+    </section>
+    <!-- INTRO -->
+    <section class="intro-section">
+      <h1>Let us help you find a suitable place to enjoy your food</h1>
+      <img class="food-truck-img" src="intro-img.jpg" alt="Food truck" />
+      <a href="#options-section"
+        ><img class="arrow-img" src="arrow.png" alt="Scroll down"
+      /></a>
+    </section>
+    <!-- OPTIONS -->
+    <section id="options-section">
+      <div class="options-heading">
+        <h1>We make your life easier by helping you out with these things</h1>
+      </div>
+      <div class="options">
+        <div class="option">
+          <img src="map.jpg" alt="Map" />
+          <p>Find a food truck near you</p>
+        </div>
+        <div class="option">
+          <img src="menu.jpg" alt="Menu" />
+          <p>Make an order</p>
+        </div>
+        <div class="option">
+          <img src="discount_1.png" alt="Discounts" />
+          <p>Discover deals</p>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <section class="footer-section">
+      <div class="footer-heading">
+        <h1>Receive news, deals, and promotions for your local food trucks</h1>
+      </div>
+      <div class="subscribe">
+        <input type="text" placeholder="Enter your email" />
+        <button type="button">Submit</button>
+      </div>
+      <div class="footer-nav">
+        <a href="#">Support</a>
+        <a href="#">Jobs</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="signature">
+        <p>2023 © Food truck business</p>
+        <img src="logo.jpg" alt="Food Truck" />
+      </div>
+    </section>
+  </body>
 </html>
